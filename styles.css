@@ -3,17 +3,24 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     
 }
-.assignment {
+.assignments {
     display: flex;
-    padding: 15px;
+    flex-wrap: wrap;
+}
+.assignment {
+    width: 22%;
+    padding: 10px;
     margin:10px;
+    padding: 20px 10px;
     background: olivedrab;
     border-radius: 7px;
 }
 .assignment img {
     width:200px;
     margin: 10px;
-    border: 4px dashed cornflowerblue
+    border: 4px dashed cornflowerblue;
+    display: block;
+    margin: auto;
 }
 .assignment img:hover{
     border:4px dashed red;
@@ -24,6 +31,9 @@ h1{
 }
 h1:hover{
     color:red;
+}
+h2{
+    text-align: center;
 }
 
 a{
